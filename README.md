@@ -10,7 +10,8 @@
    - [Contributions](#Contributions)
    - [Testing](#Testing)
    - [Questions](#Questions)
-  ## Description:
+   
+  ## Description
     this is an example
   ## Installation
     To install, run the following command: <addr>npm i<addr>
