@@ -14,7 +14,7 @@
   ## Description
     this is an example
   ## Installation
-    To install, run the following command: <addr>npm i<addr>
+    To install, run the following command: `npm i`
   ## Usage
     To use this repository you need Just fork this repo to start using it.
   ## License
