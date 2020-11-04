@@ -31,8 +31,8 @@ const promptUser = () => {
       message: "What do users need to know about using the repo?",
     },
     {
-      name: "contributing",
-      message: "What do users need to know about contributing to the repo?",
+      name: "contributors",
+      message: "Who contributed to this project?",
     },
     {
       type: "list",
@@ -41,19 +41,23 @@ const promptUser = () => {
       choices: [
         new inquirer.Separator("Select an answer using the arrow keys"),
         {
-          name: "Academic",
-        },
-        {
           name: "MIT",
+          value:
+            "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
         },
         {
           name: "Apache",
+          value:
+            "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
         },
         {
           name: "GNU",
+          value:
+            "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
         },
         {
           name: "None",
+          value: "Unlicensed"
         },
       ],
       validate: function (answer) {
@@ -72,32 +76,41 @@ const promptUser = () => {
 };
 
 const generateREADME = (answers) => {
-  return `
-  # ${answers.title}
-  ## Table of Contents
-    * Description
-    * Installation
-    * Usage
-    * License(s)
-    * Contributions
-    * Testing
-    * Questions
-  ## Description:
-    ${answers.description}
-  ## Installation
-    To install, run the following command: <addr>${answers.instructions}<addr>
-  ## Usage
-    To use this repository you need ${answers.usage}.
-  ## License
-    [![License]${JSON.stringify(answers.license)}
-  ## Contributions
-    ${answers.contributing}
-  ## Tests
-    Run tests with the command <addr>${answers.tests}<addr>
-  ## Questions
-    If you have any questions or issues please email me at ${answers.questions}
-    My GitHub profile [GitHub]/${answers.github}
-  `;
+  return `# ${answers.title} 
+  
+${answers.license}
+
+## Description:
+${answers.description}
+
+## Table of Contents
+
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Testing](#Testing)
+* [Questions](#Questions)
+
+## Installation
+> ${answers.instructions}
+  
+## Usage
+${answers.usage}.
+
+## License
+${answers.license}
+
+## Contributors
+${answers.contributors}
+
+## Testing
+> ${answers.tests}
+  
+## Questions
+If you have any questions or issues please contact me via [email](${answers.questions})<br>
+View my other projects here [${answers.github}](http://github.com/${answers.github})
+`;
 };
 
 promptUser()
@@ -108,6 +121,6 @@ promptUser()
     return writeFileAsync("README.md", readme);
   })
   .then(() => {
-    console.log("Creating README...");
+    console.log("README File created");
   })
   .catch((err) => console.log(err));
