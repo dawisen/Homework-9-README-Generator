@@ -1,11 +1,6 @@
 # README Generator
 No license
 
-## Image Preview
-<img src="examplemd.PNG">
-<img src="examplepreview.PNG">
-
-
 ## Description:
 This application generates a clean, professional-looking README that is ready to used in seconds. Users simply follow the question prompts in node and input their specific project information. Once all questions are answered, a new README filed is generated each time. 
 

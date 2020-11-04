@@ -109,7 +109,7 @@ ${answers.contributors}
   
 ## Questions
 If you have any questions or issues please contact me via [email](${answers.questions})<br>
-View my other projects here [${answers.github}](http://github.com/${answers.github})
+View my other projects [here](http://github.com/${answers.github})
 `;
 };
 
@@ -118,7 +118,7 @@ promptUser()
       const readme = generateREADME(answers);
       console.log(answers);
 
-    return writeFileAsync("README.md", readme);
+    return writeFileAsync("newREADME.md", readme);
   })
   .then(() => {
     console.log("README File created");
