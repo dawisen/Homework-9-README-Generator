@@ -30,5 +30,5 @@ gg
 > gg
   
 ## Questions
-If you have any questions or issues please contact me via [email](ggg)
- View my other projects here [gg](http://github.com/gg)
+If you have any questions or issues please contact me via [email](ggg)<br>
+View my other projects here [gg](http://github.com/gg)
