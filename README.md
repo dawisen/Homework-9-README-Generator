@@ -31,4 +31,4 @@ gg
   
 ## Questions
 If you have any questions or issues please contact me via [email](ggg)
-View my other projects here [gg](http://github.com/gg)
+ View my other projects here [gg](http://github.com/gg)
