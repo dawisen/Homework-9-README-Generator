@@ -1,29 +1,35 @@
 # Homework-9-README-Generator
 
-  # example [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  
+  example [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
   ## Table of Contents
-   - [Description](#Description)
-   - [Installation](#Installation)
-   - [Usage](#Usage)
-   - [License](#License)
-   - [Contributions](#Contributions)
-   - [Testing](#Testing)
-   - [Questions](#Questions)
-   
-  ## Description
-    this is an example
+  - [Description](#Description)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [License](#License)
+  - [Contributions](#Contributions)
+  - [Testing](#Testing)
+  - [Questions](#Questions)
+  
+  ## Description:
+    desc
+  
   ## Installation
     To install, run the following command: `npm i`
+  
   ## Usage
-    To use this repository you need Just fork this repo to start using it.
+    To use this repository you need nothing.
+
   ## License
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    undefined
+
   ## Contributions
-    Not accepting any
+    fork to your own repo
+
   ## Testing
-    Run tests with the command <addr>npm test<addr>
+    Run tests with the command `npm test`
+  
   ## Questions
-    If you have any questions or issues please email me at dani@gmail.com
-    My GitHub profile [GitHub]/dawisen
+    If you have any questions or issues please email me at dawisen@gmail.com
+    My GitHub profile [GitHub](http://github.com/dawisen)
   
