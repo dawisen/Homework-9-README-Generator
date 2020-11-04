@@ -1,35 +1,35 @@
-# Homework-9-README-Generator
+  # example 
+  
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-  example [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
+  ## Description:
+    description
+  
   ## Table of Contents
-  - [Description](#Description)
-  - [Installation](#Installation)
-  - [Usage](#Usage)
-  - [License](#License)
-  - [Contributions](#Contributions)
-  - [Testing](#Testing)
-  - [Questions](#Questions)
-  
-  ### Description:
-    desc
-  
+
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#License)
+  * [Contributing](#Contributing)
+  * [Testing](#Testing)
+  * [Questions](#Questions)
+
   ## Installation
-    To install, run the following command: `npm i`
+  > npm i
   
   ## Usage
-    To use this repository you need nothing.
+  run the index.js file in your integrated terminal to start.
 
   ## License
-    undefined
+  undefined
 
-  ## Contributions
-    fork to your own repo
+  ## Contributors
+  dawisen
 
   ## Testing
-    Run tests with the command `npm test`
+  > npm test
   
   ## Questions
-    If you have any questions or issues please email me at dawisen@gmail.com
-    My GitHub profile [GitHub](http://github.com/dawisen)
+    If you have any questions or issues please contact me via [email](daw@gmail.com)
+    View my other projects here [dawisen](http://github.com/dawisen)
   
