@@ -14,7 +14,6 @@ This application generates a clean, professional-looking README that is ready to
 * [Usage](#Usage)
 * [License](#License)
 * [Contributing](#Contributing)
-* [Testing](#Testing)
 * [Questions](#Questions)
 
 ## Installation
@@ -28,9 +27,6 @@ This application can be used to generate an organized template for any project.
 
 ## Contributors
 dawisen
-
-## Testing
-> npm test
   
 ## Questions
 If you have any questions or issues please contact me via email: (daniellewwise@gmail.com) <br>
