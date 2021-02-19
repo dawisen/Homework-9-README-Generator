@@ -33,7 +33,7 @@ dawisen
 > npm test
   
 ## Questions
-If you have any questions or issues please contact me via [email](daniellewwise@gmail.com)<br>
+If you have any questions or issues please contact me via email: (daniellewwise@gmail.com) <br>
 View my other projects [here](http://github.com/dawisen)
 
 ## Video demonstrating functionality
