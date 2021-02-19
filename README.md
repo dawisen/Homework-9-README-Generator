@@ -26,7 +26,7 @@ This application generates a clean, professional-looking README that is ready to
 This application can be used to generate an organized template for any project. 
 
 ## License
-Unlicensed
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Contributors
 dawisen
